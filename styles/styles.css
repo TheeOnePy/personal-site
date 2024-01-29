@@ -1,0 +1,38 @@
+h1 {
+    font-size: 30px;
+    color: rgb(215, 180, 38);
+    text-align: center;
+    padding: 1em;
+    margin: 0 auto;
+    text-shadow: 3px 3px 1px black;
+}
+.name {
+    display: flex;
+    justify-content: flex-end;
+}
+
+html {
+    font-size: 15px; /* px 表示“像素（pixel）”: 基础字号为 10 像素 */
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+figcaption {
+    display: flex;
+    justify-content: center;
+}
+main {
+    height: 100vh;
+    background: linear-gradient(to bottom left, #FBEAFF, #C4FCEF);
+    background-attachment: fixed;
+}
+
+nav {
+    height: 20vh;
+    background: linear-gradient(to bottom left, #dc3709, #d7e913);
+    
+}
+dl {
+    margin: 0;
+}
